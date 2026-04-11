@@ -66,3 +66,4 @@ public class ArrayList2 {
 //
 // Encapsulation (private + public)
 // Validation (no negative withdrawal)
+
