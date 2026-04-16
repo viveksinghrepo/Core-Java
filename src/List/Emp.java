@@ -1,6 +1,6 @@
 package List;
 
-public class Emp implements Comparable {
+public class Emp  implements Comparable {
 
 	int id;
 	String name;
@@ -25,11 +25,12 @@ public class Emp implements Comparable {
 	public String toString() {
 		return "Emp [id=" + id + ", name=" + name + "]";
 	}
+//	 
 	@Override
 	public int compareTo(Object o) {
 		Emp e=(Emp)o;
 		if(this.id>e.id)return 1;
-		else if(this.id<e.id)return -1;
+		else if (this.id<e.id) return -1;
 		return 0;
 	}
 	
